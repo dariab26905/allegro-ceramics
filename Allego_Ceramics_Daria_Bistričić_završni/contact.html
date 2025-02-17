@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* General Reset */
+        
         * {
             margin: 0;
             padding: 0;
@@ -19,7 +21,7 @@
             background-color: #f8f4ed;
         }
 
-        /* Navbar */
+        
         nav {
             background-color: #0f0f2d;
             padding: 15px;
@@ -79,13 +81,34 @@
     </style>
 </head>
 <body> 
-    <nav>
-        <a href="index.html"><img src="Allegro Ceramics logo.png" alt="Allegro Ceramics Logo"></a>
-        <a href="about.html">O nama</a>
-        <a href="products.html">Proizvodi</a>
-        <a href="gallery.html">Galerija</a>
-        <a href="advent.html">Advent</a>
-        <a href="contact.html">Kontakt</a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="Allegro Ceramics logo.png" alt="Allegro Ceramics Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">O nama</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Proizvodi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Galerija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="advent.html">Advent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <section class="contact">
         <h1>Kontaktirajte nas</h1>
@@ -93,10 +116,15 @@
             <div class="text">
                 <p>Možete nas kontaktirati preko emaila: <a href="mailto:alida.blaskovic@yahoo.com">alida.blaskovic@yahoo.com</a></p>
                 <p>Broj telefona : 0955231697</p>
-                    <p>Ili posjetom lokacije</p>
+                <p>Ili posjetom lokacije</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2816.991060897708!2d14.123351900000001!3d45.085974400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4763492371a9b645%3A0x307de969151b19b7!2sAllegro%20Handmade%20Ceramics%20Atelier!5e0!3m2!1shr!2shr!4v1739813642983!5m2!1shr!2shr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
