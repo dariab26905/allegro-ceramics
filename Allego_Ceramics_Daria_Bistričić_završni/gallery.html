@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija - Allegro Ceramics</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #1a1a1a;
+            line-height: 1.6;
+            background-color: #f8f4ed;
+        }
+
+        
+        nav {
+            background-color: #0f0f2d;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav img {
+            height: 50px;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d4af37;
+        }
+
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <a href="index.html"><img src="Allegro Ceramics logo.png" alt="Allegro Ceramics Logo"></a>
+        <a href="about.html">O nama</a>
+        <a href="products.html">Proizvodi</a>
+        <a href="gallery.html">Galerija</a>
+        <a href="advent.html">Advent</a>
+        <a href="contact.html">Kontakt</a>
+    </nav>
+
+    
+    <section class="gallery">
+        <a href="https://www.instagram.com/p/DF-pLTJsLt2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="vaze1.png" alt="Galerija Slika 1"></a>
+        <a href="https://www.instagram.com/p/DF51KhNO4I1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="vaza2.png" alt="Galerija Slika 2"></a>
+        <a href="https://www.instagram.com/p/DFiadKgMdnX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="vaza3.png" alt="Galerija Slika 3"></a>
+        <a href="https://www.instagram.com/p/CvSWO8SM1AV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="bokal1.png" alt="Galerija Slika 4"></a>
+        <a href="https://www.instagram.com/p/CvsXYLBspK8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="lamp1.png" alt="Galerija Slika 5"></a>
+        <a href="https://www.instagram.com/p/C4Qcyd3sF7T/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="salica1.png" alt="Galerija Slika 6"></a>
+    </section>
+</body>
+</html>

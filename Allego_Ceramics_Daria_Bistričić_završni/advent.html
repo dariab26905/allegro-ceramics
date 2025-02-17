@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advent</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #1a1a1a;
+            line-height: 1.6;
+            background-color: #f8f4ed;
+        }
+
+        
+        nav {
+            background-color: #0f0f2d;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav img {
+            height: 50px;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d4af37;
+        }
+
+        
+        .advent {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .advent h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .advent p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .advent-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .advent-content img {
+            width: 100%;
+            max-width: 300px; 
+            border-radius: 15px;
+        }
+
+        .advent-content .text {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .advent-slike {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .advent-slike img {
+            width: 100%;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .advent-slike img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <a href="index.html"><img src="Allegro Ceramics logo.png" alt="Allegro Ceramics Logo"></a>
+        <a href="about.html">O nama</a>
+        <a href="products.html">Proizvodi</a>
+        <a href="gallery.html">Galerija</a>
+        <a href="advent.html">Advent</a>
+        <a href="contact.html">Kontakt</a>
+    </nav>
+
+    
+    <section class="advent">
+        <h1>Advent</h1>
+        <div class="advent-content">
+            <div class="text">
+                <p>Brinemo se o kvaliteti kulturnih događaja te sudjelujemo u uređivanju Advenata.</p>
+            </div>
+        </div>
+        <section class="advent-slike">
+            <a href=""><img src="valentinovo.png" alt="Advent Slika 1"></a>
+            <a href=""><img src="vaza2.png" alt="Galerija Slika 2"></a>
+            <a href=""><img src="vaza3.png" alt="Galerija Slika 3"></a>
+            <a href=""><img src="bokal1.png" alt="Galerija Slika 4"></a>
+            <a href=""><img src="lamp1.png" alt="Galerija Slika 5"></a>
+            <a href=""><img src="salica1.png" alt="Galerija Slika 6"></a>
+        </section>
+    </section>
+</body>
+</html>
